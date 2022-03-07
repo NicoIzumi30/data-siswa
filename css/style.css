@@ -1,0 +1,39 @@
+.hrf14 {
+	font : 14px verdana;
+	width: 100%;
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+.hrf12 {
+	font : 12px verdana;
+	width: 100%;
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+.menu2 {
+	border: #e5e5e5;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 4px;
+	font-weight: bold;
+	font: 11px verdana;
+	width: 100%;
+	color: yellow;
+	display: block;
+	background-color: black;
+	text-decoration: none;
+}
+.coba {
+	width: 50%;
+
+}
+.bg-tb {
+	background-color: red;
+}
+.ppyt {
+	border-radius: 50%;
+}
