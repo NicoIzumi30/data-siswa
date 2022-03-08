@@ -16,8 +16,8 @@
 
 		if ($row > 0) {
 			// echo" berhasil <br> ";
-			$_SESSION['admin'] = true;
-			echo "<meta http-equiv='refresh' content='0,url=".BASE_URL."index.php'/>";
+			$_SESSION['masuk'] = true;
+			echo "<meta http-equiv='refresh' content='0,url=".BASE_URL."home.php'/>";
 		}else{
 			// echo" gagal <br> ";
 			$err = "username atau password salah";

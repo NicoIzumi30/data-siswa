@@ -1,32 +1,24 @@
 <?php 
 include("atas.php");
+include("connect.php");
+if (!$_SESSION['masuk']) {
+    echo "<meta http-equiv='refresh' content='0,url=".BASE_URL."login.php'/>";
+}
  ?>
-<html>
-<head>
-	<title>Home</title>
-	<style type="text/css">
-		.bdy {
-			background-color: skyblue;
+ 	<style type="text/css">
+
+ 		th,td {
+			text-align: center;
+			padding: 8px;
 		}
-	</style>
-</head>
-<body>
-	<div class="bdy">
-	<h1>Selamat Datang Di SMK Negeri 1 Bantul</h1>
-	<p>SMK Negeri 1 Bantul adalah sekolah menengah kejuruan yang beroperasi di bawah naungan Dinas <br> Pendidikan Menengah dan Nonformal Kabupaten Bantul. Lembaga ini beralamat di Jalan <br> Parangtritis Kilometer 11 Bantul, Daerah Istimewa Yogyakarta, Indonesia.</p>
-	<h3>Paket Keahlian</h3>
-	<ul>
-		<li>Akuntansi</li>
-		<li>Perbankan syariah</li>
-		<li>Administrasi perkantoran</li>
-		<li>Pemasaran</li>
-		<li>Teknik komputer dan jaringan</li>
-		<li>Rekayasa perangkat lunak</li>
-		<li>Multimedia</li>
-	</ul>
-	</div>
-</body>
-</html>
+ 	</style>
+ 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<center>
+	<h1 style="margin-top: 50%; margin: auto; color: black; font-family: arial; opacity: 80%">Selamat Datang Di Website SMK Negeri 1 Bantul</h1>	
+	</center>	
 <?php 
 include("bawah.php");
  ?>

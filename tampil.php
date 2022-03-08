@@ -14,7 +14,8 @@ $result = mysqli_query($konek, "select * from siswa12");
 		}
 		table{
 			border-collapse: collapse;
-			width: 100%;		}
+			width: 100%;		
+		}
 		th,td {
 			text-align: center;
 			padding: 8px;
@@ -23,7 +24,7 @@ $result = mysqli_query($konek, "select * from siswa12");
 			background-color: #f2f2f2;
 		}
 		th {
-			background-color: #04AA6D;
+			background-color:#8da3c7;
 			color: white;
 		}
 	</style>
@@ -57,7 +58,7 @@ $result = mysqli_query($konek, "select * from siswa12");
 
   ?>
   </table>
-  <button><a href="isi_siswa2.php">Data Baru</a></button>
+  <a href="isi_siswa2.php"><button class="btn fourth" style=" margin: 0; margin-top: 10px; background-color: #8da3c7; font-size: 8px; ">Data Baru</button></a>
   </center>
 </body>
 </html>

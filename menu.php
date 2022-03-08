@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<table width="100%">
+<table class="menu1" width="100%">
 	<tr>
 		<td><a href = "home.php" class="hrf14">Home</td>
 	</tr>
