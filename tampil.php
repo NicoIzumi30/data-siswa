@@ -14,7 +14,7 @@ $result = mysqli_query($konek, "select * from siswa12");
 		}
 		table{
 			border-collapse: collapse;
-			width: 50%;		}
+			width: 100%;		}
 		th,td {
 			text-align: center;
 			padding: 8px;
@@ -31,7 +31,7 @@ $result = mysqli_query($konek, "select * from siswa12");
 <body>
 
 <center>
- <table border="1">
+ <table border="1" width="100%">
  	<thead>
  		<th>NIS</th>
  		<th>NAMA</th>

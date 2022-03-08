@@ -6,3 +6,4 @@
 	</tr>
 </table>
 </center>
+</div>

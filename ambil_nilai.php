@@ -23,7 +23,7 @@ $jur=$_GET['jurusan'];
 					<div  class="wrap">
 						  <div class="Regisration">
 						  	<div class="Regisration-head">
-						    	<h2><span></span>Update Data</h2>
+						    	<h2 style="color: white;"><span></span>Update Data</h2>
 						 	 </div>
 						  	<form action="isi_siswa3.php" method="post">
 						  		<input type="text" name="x1" value="<?=$nise?>" >

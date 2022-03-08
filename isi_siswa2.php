@@ -15,7 +15,7 @@
 					<div  class="wrap">
 						  <div class="Regisration">
 						  	<div class="Regisration-head">
-						    	<h2><span></span>Isi Data Siswa</h2>
+						    	<h2 style="color: white"><span></span>Isi Data Siswa</h2>
 						 	 </div>
 						  	<form action="isi_data.php" method="post">
 						  		<input type="text" name="nis" placeholder="NIS" >
