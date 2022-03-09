@@ -90,4 +90,5 @@ body {
 .menu1 th,td {
 			text-align: center;
 			background-color: white;
+      border-collapse: collapse;
 }

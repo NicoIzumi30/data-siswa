@@ -24,7 +24,7 @@ mysqli_query($konek, $query);
 	}
 	h3 {
 		color: #94919a;
-		margin-top: 5%; 
+		margin-top: 4%; 
 	}
 </style>
 <h3>Data Berhasil Ditambahkan</h3>
