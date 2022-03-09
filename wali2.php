@@ -1,6 +1,6 @@
 <?php 
 include("connect.php");
-include("atas.php");
+include("atas2.php");
 $result = mysqli_query($konek, "select * from wali");
 
 
@@ -13,6 +13,7 @@ $result = mysqli_query($konek, "select * from wali");
 	<style>
 		}
 		table{
+			border-collapse: collapse;
 			width: 100%;		
 		}
 		th,td {
@@ -31,14 +32,12 @@ $result = mysqli_query($konek, "select * from wali");
 <body>
 
 <center>
- <table border="0" width="100%">
+ <table border="1" width="70%">
  	<thead>
  		<th>No</th>
  		<th>KELAS</th>
  		<th>WALI KELAS</th>
  		<th>GURU BK</th>
- 		<th>UBAH</th>
- 		<th>HAPUS</th>
  	</thead>
  <?php
  while ($kol=mysqli_fetch_array($result)) {
@@ -48,8 +47,6 @@ $result = mysqli_query($konek, "select * from wali");
 			  <td>$kol[1]</td>
 			  <td>$kol[2]</td>
 			  <td>$kol[3]</td>
-			  <td> <a href='ambil_nilai2.php?no=$kol[0]&celas=$kol[1]&wali=$kol[2]&bk=$kol[3]'>Edit</a></td>
-			  <td> <a href='hapus_nilai2.php?no=$kol[0]'>Hapus</a></td>
 	      </tr>";
 
 }
@@ -58,8 +55,6 @@ $result = mysqli_query($konek, "select * from wali");
 
   ?>
   </table>
-  <a href="isi_guru.php"><button class="btn fourth" style=" margin: 0; margin-top: 10px; background-color: #8da3c7; font-size: 8px; ">Data Baru</button></a>
   </center>
 </body>
 </html>
-<?php include("bawah.php") ?>

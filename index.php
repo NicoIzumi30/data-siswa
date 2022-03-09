@@ -18,4 +18,6 @@ include("connect.php");
 			<a href="https://skansaba.id/"><button class="btn fourth">E-Learning</button></a>
 			<a href="home.php"><button class="btn fourth">Data Sekolah</button></a>
 			<a href="https://goo.gl/maps/2iKxqqR7MwaUFaRN7"><button class="btn fourth">Alamat</button></a>
+			<a href="wali2.php"><button class="btn fourth">Wali & BK</button></a>
+			<a href="https://docs.google.com/spreadsheets/d/1haAPjYqC_v3YBdd3KPGKG5zJ1fQqCCuz2rlvARPcHXk/edit?usp=sharing"><button class="btn fourth">Jadwal Ruang</button></a>
 	</center>	
