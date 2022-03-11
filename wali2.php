@@ -27,11 +27,26 @@ $result = mysqli_query($konek, "select * from wali");
 			background-color:#8da3c7;
 			color: white;
 		}
+		.test1 {
+			background-color: #b6ffb5;
+		} 
+		.test2 {
+			background-color: #d3efff;
+		}
+		.test3 {
+			background-color: #fcffc9;
+		}
+		.test4 {
+			background-color: #ffdcdc;
+		}
 	</style>
 </head>
 <body>
 
 <center>
+	<table border="1" width="70%">
+		<td style="background-color: #8da3c7;"><h2 style="text-align: center; margin-top: 3%">DATA SMKN 1 BANTUL</h2></td>
+	</table>
  <table border="1" width="70%">
  	<thead>
  		<th>No</th>
@@ -43,10 +58,10 @@ $result = mysqli_query($konek, "select * from wali");
  while ($kol=mysqli_fetch_array($result)) {
 
 	  echo "<tr>
-			  <td>$kol[0]</td>
-			  <td>$kol[1]</td>
-			  <td>$kol[2]</td>
-			  <td>$kol[3]</td>
+			  <td class='test1'>$kol[0]</td>
+			  <td class='test2'>$kol[1]</td>
+			  <td class='test3'>$kol[2]</td>
+			  <td class='test4'>$kol[3]</td>
 	      </tr>";
 
 }
